@@ -62,26 +62,20 @@
 
 1. 点击运行可执行文件，点击主界面上的“读取真实数据”按钮。
 
-![image](https://user-images.githubusercontent.com/55476033/117961033-3a315800-b350-11eb-9c65-45c5ddda858e.png)
+![image](https://user-images.githubusercontent.com/55476033/117961126-5634f980-b350-11eb-97d1-9dcf1da51d96.png)
 
 **注意：**读取数据文件之前，请确保可执行文件与RealData.txt在同一目录下，若数据文件放错位置，会出现如下提示：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961137-59c88080-b350-11eb-8a52-6e933f952dc8.png)
 2. 成功找到数据文件后，会弹出对话框，请输入文件中各城市的风险值。**
 
- 
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
-
- 
+![image](https://user-images.githubusercontent.com/55476033/117961155-5f25cb00-b350-11eb-8403-0a3a3c736841.png)
 
 如果风险值输入错误，可以按“cancel”键重新输入，输入确认无误后点击“OK”进行下一个城市风险的输入。下图为点击“cancel”后的提示：
 
  
-
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961168-64831580-b350-11eb-97d5-058ac1fe2587.png)
  
 
 **注意：**此处的输入有范围限制，只接受0.2-0.9之间的一位小数，如果试图输入不符合规定的数字是无法输入成功的。
@@ -92,8 +86,7 @@
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961184-68af3300-b350-11eb-8c65-348b23266a96.png)
  
 
 #### 1.2 手动输入
@@ -106,7 +99,9 @@
 
  
 
-（1）   **点击主界面上的“手动输入按钮”进入手动输入模式。**![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)
+（1）   **点击主界面上的“手动输入按钮”进入手动输入模式。**
+![image](https://user-images.githubusercontent.com/55476033/117961219-72d13180-b350-11eb-935f-04014bf649bb.png)
+
 
 （2）   **首先创建地图信息，输入城市总数，汽车线路数，火车线路数，飞机线路数。**
 
@@ -116,16 +111,14 @@
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961251-7e245d00-b350-11eb-992b-fa6fa01ee358.png)
  
 
 **注意：**城市总数不得超过31，不得输入负数，各线路数不得超过 N x (N - 1)（N为城市数，即每两个城市都双向互联），如果输入不合法，会弹出如下提示框，并清空此页数据，重新输入：
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961267-81b7e400-b350-11eb-89ba-b47084c44e3d.png)
 ​     
 
 按照我们的输入样例，此处我们应该分别输入：“2 1 0 0”（0可以省略不填）。输入完成后点击确认。
@@ -136,10 +129,8 @@
 
 当确定城市数后，首先弹出下面的对话框，同读取数据模式一样，点击“OK”进入下一个城市风险值的输入，点击“cancel”重新输入。输入各城市的风险值，城市与序号的对应关系在界面右下角有给出，也可以参考《功能需求分析与总体方案设计》的3.2.1节。按照讲解案例，此处都输入0.2。
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image018.jpg)
-
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961279-854b6b00-b350-11eb-9187-f25765060dc4.png)
+![image](https://user-images.githubusercontent.com/55476033/117961287-87adc500-b350-11eb-8b61-8c69e862a012.png)
 注意：同读取数据模式，此处的输入有范围限制，只接受0.2-0.9之间的一位小数，如果试图输入不符合规定的数字是无法输入成功的。
 
  
@@ -150,14 +141,12 @@
 
 界面如下所示：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image022.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961299-8b414c00-b350-11eb-9823-d92f6785de75.png)
  
 
 按照我们的讲解案例，此处应该依次填入“2 1 1”，点击确定。如果任意一个空填入了负数、不填写任何数值，或者起始城市或终止城市序号超过之前输入的城市总数的话，会出现如下报错提示：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image024.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961317-8f6d6980-b350-11eb-8202-54399662eac2.png)
  
 
 （5）   **构建车次表。**
@@ -166,20 +155,17 @@
 
 首先输入的是两城市之间的交通工具的发车次数。具体输入的是从哪个城市到哪个城市的何种交通工具的发车次数，对话框都会清楚地提示出，此例中输入框如下所示。按照我们的讲解案例，此处应该输入“1”。输入完成后点击”OK”。（此输入框的默认值即为1）
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image026.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961327-93998700-b350-11eb-9000-0774aa806123.png)
  
 
 如果点击取消，则会提示重新输入。
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg) 
-
+![image](https://user-images.githubusercontent.com/55476033/117961334-95fbe100-b350-11eb-82e8-c850fefc8088.png)
 输入完两城市间车次后，会出现提示框，要求输入第N班车次的首发时刻，按照我们的讲解案例，此处输入“0”。（此输入栏默认值为0）
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image028.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961351-998f6800-b350-11eb-8055-48b668cc08f3.png)
  
 
 **注意：**此处的对话框输入也是有范围限制的，只接受0-23的整数。输入不符合格式会无法输入成功。
@@ -193,23 +179,19 @@
 在构建完交通工具时刻表之后，会进入创建初始旅客信息的界面，设计这个界面是因为这样可以使得旅客在系统运行的开始时刻（第0天第0时）就出发成为可能。按照我们的讲解案例，此处之间输入0即可。（此处的默认值即为0）
 
  
-
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image030.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961366-9d22ef00-b350-11eb-8e0b-ae6da1f5e400.png)
  
 
 至此手动输入模式完成，出现如下提示回到主界面。
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image032.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117961380-a0b67600-b350-11eb-85e4-35b83654cafd.png)
 
- 
 
 **注意：**如果已经手动输入了数据再点击数据读入或者已经读入了数据文件再点击手动输入案件会出现如下的提示：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image034.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961393-a57b2a00-b350-11eb-8f23-cf7bad19d1d4.png)
  
 
 ## 二、   模拟旅行
@@ -218,8 +200,7 @@
 
 #### 2.1界面说明
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image036.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961409-aad87480-b350-11eb-938a-bf31767ce8e7.png)
 **（1）**   **时间显示区**
 
 在界面的左上角，是模拟系统时间显示区，显示了当前模拟系统的时间。
@@ -248,7 +229,8 @@
 
 当旅客在旅行时，地图上会实时呈现出旅客的位置，旅客乘坐的交通工具如下所示：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image037.png)         ![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image038.png)        ![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image039.png)
+![image](https://user-images.githubusercontent.com/55476033/117961466-bc218100-b350-11eb-94f0-33011c64912c.png)
+         ![image](https://user-images.githubusercontent.com/55476033/117961484-c0e63500-b350-11eb-8e9a-8debddc47ce7.png)        ![image](https://user-images.githubusercontent.com/55476033/117961500-c479bc00-b350-11eb-899a-a8cf76ab8e98.png)
 
 汽 车         火 车        飞 机
 
@@ -260,8 +242,7 @@
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image041.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961514-c80d4300-b350-11eb-9b83-99e30c32dd15.png)
  
 
 设武汉的风险值为0.2。点击OK即输入完成。
@@ -270,12 +251,10 @@
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image043.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961526-cba0ca00-b350-11eb-8400-91b4d4c2fc04.png)
 如上图，武汉的城市被绿色圆形标记，城市添加成功。此时城市已达到最大数目，如果再点击添加城市键会出现如下报错提示：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image045.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961538-ce032400-b350-11eb-9e2c-999d36887a13.png)
  
 
 #### 2.3添加/修改时刻表
@@ -286,51 +265,46 @@
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image047.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117961560-d196ab00-b350-11eb-956d-c691789743c4.png)
 
 在这里我添加一条武汉到长沙的火车线路，耗时2小时；一条武汉到北京的飞机线路，耗时3小时，那么在对话框中分别输入“0 1 1”（0可以不输入）。
 
 首先进入火车线路创建界面，由界面上的城市与序号对照表可知，输入应为“31 27 2”，点击确定后，输入每日发车次数与首发时间，输入方法与第一节中所述一致，在此我输入的是“1班火车，每日12点首发”
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image049.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961576-d78c8c00-b350-11eb-8641-d9d065174ea4.png)
  
 
 接下来进入飞机线路创建界面，按照样例输入应如下所示，点击确定，输入飞机起飞次数和各班次首发时间，我输入的是每日两班，起飞时间分别是8点和16点。
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image051.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961584-dbb8a980-b350-11eb-9db1-de5ce4981d3b.png)
  
 
 输入完成后回到运行主界面，发现路径已经添加成功，路径详细情况可以点击详细查询按钮查看，稍后介绍。    
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image053.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117961591-dfe4c700-b350-11eb-893c-d3744ae403e2.png)
 
 #### 2.4 详细查询
 
-在上一节中，我们已经添加了两条路线，地图上可以直接看出效果，但是我们需要检验一下数据输入是否正确，这时可以点击详细查询按钮。下图是详细查询的界面：![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image055.jpg)
-
+在上一节中，我们已经添加了两条路线，地图上可以直接看出效果，但是我们需要检验一下数据输入是否正确，这时可以点击详细查询按钮。下图是详细查询的界面：![img]![image](https://user-images.githubusercontent.com/55476033/117961612-e5daa800-b350-11eb-962c-895b0695083f.png)
 在左上的窗口中可以查询到每个城市的风险值，右上窗口可以查询到每个旅客选择的旅行计划详情，现在系统中还没有旅客，所以是空的。在左下窗口中可以查询到各种交通工具的所有时刻表，在右下的窗口中可以看到从0时刻开始各时刻旅客的状态，同样地，当前系统中没添加旅客，所以这里显示了时间，没有状态信息。
 
 现在我们来检验一下在前一节输入的线路是否添加成功了。下拉时刻表窗口，查询到如下数据，说明我们的线路添加成功。
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image057.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961630-ea9f5c00-b350-11eb-968a-a87c701c02dd.png)
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image059.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117961636-ed01b600-b350-11eb-9f37-c766e7e96929.png)
  
 
 #### 2.5 添加旅客
 
 ​    现在为系统中添加旅客。在这里出于介绍方法的目的，不多添加，只添加一个旅客，使其在第四天的3点出发，起始城市设为哈尔滨，终点城市设为昆明。点击添加旅客，选择添加个数为1，进入旅客信息输入界面，我已经将数据输入进了对话框，界面如下所示。
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image061.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117961648-f0953d00-b350-11eb-91e3-12f927063eee.png)
 
 **注意：**此节目中的限制时间与必经城市都是可选项，当选中其勾选框时，激活后面的输入框，可以进行输入。旅客旅行计划的多种规划路径策略由这两个选项控制。通过勾选可以组合出以下四种策略。
 
