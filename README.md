@@ -62,7 +62,7 @@
 
 1. 点击运行可执行文件，点击主界面上的“读取真实数据”按钮。
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117961033-3a315800-b350-11eb-9c65-45c5ddda858e.png)
 
 **注意：**读取数据文件之前，请确保可执行文件与RealData.txt在同一目录下，若数据文件放错位置，会出现如下提示：
 
