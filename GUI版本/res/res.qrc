@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>addperson.png</file>
+        <file>bkg.png</file>
+        <file>bus.png</file>
+        <file>city.png</file>
+        <file>file.png</file>
+        <file>keyboard.png</file>
+        <file>lookup.png</file>
+        <file>plane.png</file>
+        <file>schedule.png</file>
+        <file>start.png</file>
+        <file>train.png</file>
+        <file>doctor.png</file>
+        <file>changepath.png</file>
+        <file>icon.png</file>
+        <file>bkg1.png</file>
+    </qresource>
+</RCC>

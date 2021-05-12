@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/air.png</file>
+        <file>res/bus.png</file>
+        <file>res/high.png</file>
+        <file>res/icon.png</file>
+        <file>res/low.png</file>
+        <file>res/mid.png</file>
+        <file>res/new.png</file>
+        <file>res/per.png</file>
+        <file>res/start.png</file>
+        <file>res/tab.png</file>
+        <file>res/train.png</file>
+        <file>res/doctor.png</file>
+        <file>res/earth.png</file>
+        <file>res/lookup.png</file>
+        <file>res/plane.png</file>
+        <file>res/schedule.png</file>
+        <file>res/city.png</file>
+        <file>res/bkg.png</file>
+    </qresource>
+</RCC>

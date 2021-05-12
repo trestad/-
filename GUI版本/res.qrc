@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/bkg.jpg</file>
+        <file>res/bus.png</file>
+        <file>res/high.png</file>
+        <file>res/icon.png</file>
+        <file>res/low.png</file>
+        <file>res/map.png</file>
+        <file>res/mid.png</file>
+        <file>res/person.png</file>
+        <file>res/plane.png</file>
+        <file>res/start.png</file>
+        <file>res/table.png</file>
+        <file>res/train.png</file>
+    </qresource>
+</RCC>
