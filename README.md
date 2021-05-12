@@ -67,6 +67,7 @@
 **注意：**读取数据文件之前，请确保可执行文件与RealData.txt在同一目录下，若数据文件放错位置，会出现如下提示：
 
 ![image](https://user-images.githubusercontent.com/55476033/117961137-59c88080-b350-11eb-8a52-6e933f952dc8.png)
+
 2. 成功找到数据文件后，会弹出对话框，请输入文件中各城市的风险值。**
 
 
@@ -100,6 +101,7 @@
  
 
 （1）   **点击主界面上的“手动输入按钮”进入手动输入模式。**
+
 ![image](https://user-images.githubusercontent.com/55476033/117961219-72d13180-b350-11eb-935f-04014bf649bb.png)
 
 
@@ -130,7 +132,9 @@
 当确定城市数后，首先弹出下面的对话框，同读取数据模式一样，点击“OK”进入下一个城市风险值的输入，点击“cancel”重新输入。输入各城市的风险值，城市与序号的对应关系在界面右下角有给出，也可以参考《功能需求分析与总体方案设计》的3.2.1节。按照讲解案例，此处都输入0.2。
 
 ![image](https://user-images.githubusercontent.com/55476033/117961279-854b6b00-b350-11eb-9187-f25765060dc4.png)
+
 ![image](https://user-images.githubusercontent.com/55476033/117961287-87adc500-b350-11eb-8b61-8c69e862a012.png)
+
 注意：同读取数据模式，此处的输入有范围限制，只接受0.2-0.9之间的一位小数，如果试图输入不符合规定的数字是无法输入成功的。
 
  
@@ -161,6 +165,7 @@
 如果点击取消，则会提示重新输入。
 
 ![image](https://user-images.githubusercontent.com/55476033/117961334-95fbe100-b350-11eb-82e8-c850fefc8088.png)
+
 输入完两城市间车次后，会出现提示框，要求输入第N班车次的首发时刻，按照我们的讲解案例，此处输入“0”。（此输入栏默认值为0）
 
  
@@ -201,6 +206,7 @@
 #### 2.1界面说明
 
 ![image](https://user-images.githubusercontent.com/55476033/117961409-aad87480-b350-11eb-938a-bf31767ce8e7.png)
+
 **（1）**   **时间显示区**
 
 在界面的左上角，是模拟系统时间显示区，显示了当前模拟系统的时间。
@@ -229,8 +235,11 @@
 
 当旅客在旅行时，地图上会实时呈现出旅客的位置，旅客乘坐的交通工具如下所示：
 
+
 ![image](https://user-images.githubusercontent.com/55476033/117961466-bc218100-b350-11eb-94f0-33011c64912c.png)
-         ![image](https://user-images.githubusercontent.com/55476033/117961484-c0e63500-b350-11eb-8e9a-8debddc47ce7.png)        ![image](https://user-images.githubusercontent.com/55476033/117961500-c479bc00-b350-11eb-899a-a8cf76ab8e98.png)
+
+         ![image](https://user-images.githubusercontent.com/55476033/117961484-c0e63500-b350-11eb-8e9a-8debddc47ce7.png)        
+         ![image](https://user-images.githubusercontent.com/55476033/117961500-c479bc00-b350-11eb-899a-a8cf76ab8e98.png)
 
 汽 车         火 车        飞 机
 
@@ -245,6 +254,7 @@
 ![image](https://user-images.githubusercontent.com/55476033/117961514-c80d4300-b350-11eb-9b83-99e30c32dd15.png)
  
 
+
 设武汉的风险值为0.2。点击OK即输入完成。
 
 **注意：**此对话框与前一章的风险输入对话框不同，点击cancel不会重新输入，而是放弃输入，回到运行界面。
@@ -252,6 +262,8 @@
  
 
 ![image](https://user-images.githubusercontent.com/55476033/117961526-cba0ca00-b350-11eb-8400-91b4d4c2fc04.png)
+
+
 如上图，武汉的城市被绿色圆形标记，城市添加成功。此时城市已达到最大数目，如果再点击添加城市键会出现如下报错提示：
 
 ![image](https://user-images.githubusercontent.com/55476033/117961538-ce032400-b350-11eb-9e2c-999d36887a13.png)
@@ -267,9 +279,12 @@
 
 ![image](https://user-images.githubusercontent.com/55476033/117961560-d196ab00-b350-11eb-956d-c691789743c4.png)
 
+
+
 在这里我添加一条武汉到长沙的火车线路，耗时2小时；一条武汉到北京的飞机线路，耗时3小时，那么在对话框中分别输入“0 1 1”（0可以不输入）。
 
 首先进入火车线路创建界面，由界面上的城市与序号对照表可知，输入应为“31 27 2”，点击确定后，输入每日发车次数与首发时间，输入方法与第一节中所述一致，在此我输入的是“1班火车，每日12点首发”
+
 
 ![image](https://user-images.githubusercontent.com/55476033/117961576-d78c8c00-b350-11eb-8641-d9d065174ea4.png)
  
@@ -281,13 +296,17 @@
 ![image](https://user-images.githubusercontent.com/55476033/117961584-dbb8a980-b350-11eb-9db1-de5ce4981d3b.png)
  
 
+
 输入完成后回到运行主界面，发现路径已经添加成功，路径详细情况可以点击详细查询按钮查看，稍后介绍。    
 
 ![image](https://user-images.githubusercontent.com/55476033/117961591-dfe4c700-b350-11eb-893c-d3744ae403e2.png)
 
 #### 2.4 详细查询
 
-在上一节中，我们已经添加了两条路线，地图上可以直接看出效果，但是我们需要检验一下数据输入是否正确，这时可以点击详细查询按钮。下图是详细查询的界面：![img]![image](https://user-images.githubusercontent.com/55476033/117961612-e5daa800-b350-11eb-962c-895b0695083f.png)
+在上一节中，我们已经添加了两条路线，地图上可以直接看出效果，但是我们需要检验一下数据输入是否正确，这时可以点击详细查询按钮。下图是详细查询的界面：
+
+![img]![image](https://user-images.githubusercontent.com/55476033/117961612-e5daa800-b350-11eb-962c-895b0695083f.png)
+
 在左上的窗口中可以查询到每个城市的风险值，右上窗口可以查询到每个旅客选择的旅行计划详情，现在系统中还没有旅客，所以是空的。在左下窗口中可以查询到各种交通工具的所有时刻表，在右下的窗口中可以看到从0时刻开始各时刻旅客的状态，同样地，当前系统中没添加旅客，所以这里显示了时间，没有状态信息。
 
 现在我们来检验一下在前一节输入的线路是否添加成功了。下拉时刻表窗口，查询到如下数据，说明我们的线路添加成功。
