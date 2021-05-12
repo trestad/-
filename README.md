@@ -237,7 +237,7 @@
 
 
 ![image](https://user-images.githubusercontent.com/55476033/117961466-bc218100-b350-11eb-94f0-33011c64912c.png)
-![image](https://user-images.githubusercontent.com/55476033/117962765-2be43b80-b352-11eb-916c-6f902289ec55.png)        
+![image](https://user-images.githubusercontent.com/55476033/117962765-2be43b80-b352-11eb-916c-6f902289ec55.png)    
 ![image](https://user-images.githubusercontent.com/55476033/117962784-30105900-b352-11eb-99d1-c886c031400f.png)
 
 汽 车         火 车        飞 机
