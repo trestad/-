@@ -305,7 +305,9 @@
 
 在上一节中，我们已经添加了两条路线，地图上可以直接看出效果，但是我们需要检验一下数据输入是否正确，这时可以点击详细查询按钮。下图是详细查询的界面：
 
+
 ![img]![image](https://user-images.githubusercontent.com/55476033/117961612-e5daa800-b350-11eb-962c-895b0695083f.png)
+
 
 在左上的窗口中可以查询到每个城市的风险值，右上窗口可以查询到每个旅客选择的旅行计划详情，现在系统中还没有旅客，所以是空的。在左下窗口中可以查询到各种交通工具的所有时刻表，在右下的窗口中可以看到从0时刻开始各时刻旅客的状态，同样地，当前系统中没添加旅客，所以这里显示了时间，没有状态信息。
 
@@ -337,30 +339,27 @@
 
 ​     出于演示作用，我在这里勾选一个限制时间选项，我设置其限制时间为50小时，点击确定。但是这时返回了一个错误，不存在这样的路径，这说明限时太少了。
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image063.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962001-5386d400-b351-11eb-9b1c-a326d86d116f.png)
 
 于是我重新输入，取消勾选了限制时间，系统返回了如下的路径规划，我们可以看到，该计划花费了62小时，这也证明了，50小时的限时完成旅行确实是办不到的。
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image065.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117962032-5a154b80-b351-11eb-8121-fa116430568f.png)
  
 
 点击确定后，返回运行主界面开始模拟。这时我们来详细查询一下，看看旅客状态窗口和路径选择窗口的变化。
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image067.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962042-5da8d280-b351-11eb-83a8-c0b27982d1a3.png)
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image069.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117962059-613c5980-b351-11eb-9bf6-b210adebb435.png)
  
 
 可以看到，这两个窗口已经有旅客状态与计划的详细信息了。
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image071.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117962065-65687700-b351-11eb-867c-fd2bafe4cb45.png)
  
 
 如图所示，在第四天的6点，该旅客确实搭乘火车到达了长春。该路线规划的正确性与旅客后续状态的检验在此不赘述，我会放在“测试样例与分析”部分详述。
@@ -369,11 +368,11 @@
 
 此外，值得一提的是，如果满足一名乘客的路径有多种，会弹出提示框，让用户选择一个方案。为了说明这个功能，我手动构建了如下的地图：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image073.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962079-68fbfe00-b351-11eb-8ae9-aa25f8f63cc0.png)
 
 在初始化时，我添加了一名乘客，使其从0天0时出发，从北京前往兰州。弹出的规划路径界面如下：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image075.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962090-6c8f8500-b351-11eb-97b2-b9d0c6727fdc.png)
 
 输入选择的路径再点击确认，即可。
 
@@ -383,39 +382,37 @@
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image077.jpg)  
+![image](https://user-images.githubusercontent.com/55476033/117962115-72856600-b351-11eb-9cb5-ff4b1d0133dd.png)
+
 
 点击OK后进入下面的界面：
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image079.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962136-774a1a00-b351-11eb-9f76-bf081b255ff5.png)
+
 
 我们可以看到，在界面上，系统告诉了我们当前该旅客所处的城市为19，即长春。我们选择的出发起点即为长春，我们现在修改其目的地，此处我想让其目的地不再是昆明而是济南，则我设置目的地为15，出发时刻我设置为第四天的15点，不勾选限制时间与必经城市，点击确定。
 
 系统返回了如下的路径，说明已经旅客的旅行计划修改成功。
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image081.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117962149-7c0ece00-b351-11eb-9dc5-905d05625a20.png)
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image083.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117962161-7f09be80-b351-11eb-8545-f8fbd11bfd94.png)
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image085.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117962172-816c1880-b351-11eb-942d-ece96e5a37a3.png)
  
 
 **注意：**修改旅客的旅行计划是由限制的，当旅客正在交通工具上时不能修改，当旅客已经结束旅行时不能修改，否则会分别出现以下的错误提示框。
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image087.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117962181-84ff9f80-b351-11eb-83e5-7d529d2c8fd3.png)
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image089.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962189-87fa9000-b351-11eb-860e-9439440ed3b7.png)
 
  
 
@@ -423,7 +420,7 @@
 
 在文件目录下有一个txt文本文件叫做“RealData.txt”，打开该文件，如下所示：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image091.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962206-8c26ad80-b351-11eb-8583-66558c4cf2e7.png)
 
 这就是本软件读取的文件了。为了方便读取，我没有使用文字，因为读取文件的过程是用户看不到的，此文件不需要对用户阅读友好，使用了ASCII码表示数据，这样还可以使读入数据的代码简洁，提高效率。在此软件中，31个我国主要城市在此文件中用ASCII码编码从“A”（北京）到“_”（武汉）。交通工具用“b”（bus）“t”（train）“p”（plane）表示。路程所需时间用阿拉伯数字表示，而每班车（飞机）每日的发车时刻用a ~ x（0 ~ 23）表示。数据格式为：
 
@@ -448,7 +445,8 @@
 
 现在让我以第一条数据“AFp4j”为例解读一下：从北京到乌鲁木齐的飞机，所需四小时，起飞时间为9点。对应的真实航班如下图（为了以小时为单位，对时刻进行了舍入）：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image093.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962227-92b52500-b351-11eb-91c3-6c70c23f3e26.png)
+
 
 相信看了这一部分的介绍，用户可以自己添加新的数据了。
 
@@ -460,15 +458,15 @@
 
 在这一个样例中，为了便于计算风险，我设置所有的城市风险值都为0.2，界面如下图所示，我添加的乘客为第0天3点从广州前往哈尔滨，选择最小风险策略，输入之后得到如下的路径规划：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image095.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962249-98126f80-b351-11eb-9f17-a036e91ebc02.png)
 
 经过我的程序计算，一共找出了3765条可能的路径，为了证明我的程序给出的这一种规划是风险最小的，我把这3765种可能的路径都输出到了“测试样例辅助文件1.txt”中，如下所示： 
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image097.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962309-aa8ca900-b351-11eb-8910-83493c3ca9f3.png)
 
 ​     经过查找，该文件中第一条的解法是风险最小的，如下所示：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image099.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962317-ae203000-b351-11eb-803f-158423ab2ff7.png)
 
 ​     将序号换成对应的城市名，即程序给出的方案。现在让我们来验证一下这个结果的正确性：
 
@@ -476,8 +474,7 @@
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image101.jpg)
-
+![image](https://user-images.githubusercontent.com/55476033/117962335-b1b3b700-b351-11eb-9a89-6e31e91cc1bd.png)
  
 
 在广州滞留了九小时，广州的风险值为0.2，那么离开广州时，累计的风险值应该是1.8，广州到北京的飞机时间为三小时，即15点到达北京，与计划所述一致，在飞机上累计的风险值为：
@@ -488,7 +485,7 @@
 
 北京到沈阳只有飞机，所以我们来查询一下，发现北京到沈阳的飞机起飞时间为每日上午九点：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image103.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962347-b5473e00-b351-11eb-9787-cbbc438cdaac.png)
 
 ​     旅客到达北京的时间为第0天15点，所以需要滞留18个小时才能乘坐第二天的飞机。
 
@@ -500,7 +497,7 @@
 
 ​     旅客到达沈阳的时间为第1天10点，但是经过查询发现沈阳到长春的发车时刻如下：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image105.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962359-b9735b80-b351-11eb-9b17-9b29a2ec17b4.png)
 
 ​     在今天，沈阳到长春已经没有火车了，只能等到第2天的3点。在沈阳一共滞留了17个小时，增加了风险：0.2 x 17 = 3.4。乘坐三点的火车耗时三小时到达长春，此时风险增长了：
 
@@ -510,7 +507,7 @@
 
 最后在第二天的六点，旅客到达了长春，查询长春到哈尔滨的火车发车时刻如下：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image107.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962382-be380f80-b351-11eb-9136-cae19a7e9b06.png)
 
 ​     乘坐第一班八点的火车出发。共计在长春滞留2小时，增加风险0.4。在第二天的11点，旅客到达了哈尔滨，此时风险又增加了：
 
@@ -524,45 +521,45 @@
 
 依然使用上一节的数据，仍然使一个乘客从广州到哈尔滨，但是我设置必经城市为昆明，我得到了如下的规划：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image109.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962407-c42df080-b351-11eb-850e-ef5473ffdecb.png)
 
 ​     同样地，我把所有的可能规划都放在了“”中，共计有832条规划，如下所示：
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image111.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962422-c7c17780-b351-11eb-825a-0b20a13c3898.png)
 
 对比后可以发现，这832条路径全部囊括于之前3765条路径之中，只是都包括了必经城市昆明（8号城市）。
 
 ​     至于该样例的风险值，计算方法完全与第一节中的方法一致，我不再赘述。贴出该计划的运行界面图。
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image113.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962444-cee88580-b351-11eb-8232-435362a391ee.png)
 
 ​                               从广州乘汽车前往南宁
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image115.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962456-d314a300-b351-11eb-8c3c-741e77054005.png)
 
 从南宁乘汽车前往贵阳
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image117.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962474-d6a82a00-b351-11eb-8265-a8d20b4e4b04.png)
 
 ​          从贵阳乘汽车前往昆明
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image119.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962492-dad44780-b351-11eb-9607-9b80af9e410e.png)
 
 从昆明乘坐汽车前往成都
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image121.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962503-df98fb80-b351-11eb-9d61-a8b3219cddf4.png)
 
 从成都乘飞机前往北京
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image123.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962519-e3c51900-b351-11eb-94a6-776e3a2a24af.png)
 
 从北京乘飞机前往沈阳
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image125.jpg)![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image127.jpg) 
+![image](https://user-images.githubusercontent.com/55476033/117962539-e9bafa00-b351-11eb-89a8-89d54b9f53f8.png)![image](https://user-images.githubusercontent.com/55476033/117962552-ede71780-b351-11eb-8406-7b51010fcc41.png) 
 
 乘坐火车从沈阳到长春，从长春到哈尔滨
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image129.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962563-f17a9e80-b351-11eb-8eb9-47f5c16b10e7.png)
 
 最终状态
 
@@ -578,15 +575,15 @@
 
  
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image131.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962572-f50e2580-b351-11eb-94c0-4b8b1db4f0c3.png)
 
 ​     
 
 在初始化时，我添加了两名旅客作为对比，第一名旅客从北京到兰州，限时12小时，第二名旅客从北京到兰州，不限时，系统给出的规划路径分别如下图所示。
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image133.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962584-f8a1ac80-b351-11eb-91cd-da209dbc794b.png)
 
-![img](file:///C:/Users/11691/AppData/Local/Temp/msohtmlclip1/01/clip_image135.jpg)
+![image](https://user-images.githubusercontent.com/55476033/117962600-fc353380-b351-11eb-8007-2e487ed3a60f.png)
 
 ​     
 
